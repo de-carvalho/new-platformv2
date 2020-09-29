@@ -1,0 +1,36 @@
+@media (max-width: 400px) {
+  .partnersBanner {
+    height: 20vh;
+  }
+
+  .partnersBanner .space {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .partnersBanner h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .partnersBanner .space button {
+    width: 60vw;
+    height: 4vh;
+  }
+
+  #partnersMain {
+    height: 100%;
+  }
+
+  #partnersMain select {
+    width: 60vw;
+  }
+
+  #partnersMain .cardsTop {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 100px;
+  }
+}

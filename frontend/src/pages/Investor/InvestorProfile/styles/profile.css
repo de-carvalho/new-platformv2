@@ -1,0 +1,113 @@
+#investorProfile {
+  display: flex;
+}
+
+#investorProfile .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#investorProfile .content h3 {
+  margin-top: 10px;
+  font-size: 20px;
+
+  color: #333;
+}
+
+#investorProfile .content .profileContainer {
+  width: 90%;
+  height: 85vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 20px;
+
+  background-color: var(--white);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profileContainer .profile {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profileContainer button {
+  width: 20vw;
+  height: 5vh;
+
+  margin: 30px;
+  font-weight: 600;
+  color: #fff;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profileContainer .profile .quest {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.profileContainer .profile .quest label,
+.radioButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .quest label input[type="number"] {
+  padding: 8px;
+  background-color: #e9e9e9;
+
+  border: none;
+  border-radius: 2px;
+}
+
+.profile .quest .questionTitle {
+  margin-bottom: 20px;
+}
+.profile .quest .questionTitle span {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.profile .quest .radioButton p {
+  margin-bottom: -10px;
+}
+
+.profile .quest .radioButton .radioGroup {
+  display: flex;
+  align-items: center;
+}
+
+.quest .radioButton .radioGroup .inputRadioGroup {
+  width: 100px;
+  display: flex;
+  align-items: center;
+
+  padding: 10px 0;
+}
+
+.radioButton .radioGroup .inputRadioGroup input[type="radio"] {
+  height: 20px;
+  width: 20px;
+}
+
+.radioButton .radioGroup .inputRadioGroup label {
+  padding: 10px 0 0 5px;
+}

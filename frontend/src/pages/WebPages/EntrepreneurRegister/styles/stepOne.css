@@ -1,0 +1,132 @@
+#stepOne .mainOne {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#stepOne .mainOne h3 {
+  margin: 50px 0;
+
+  color: #333;
+}
+
+#stepOne .mainOne .levels {
+  width: 60%;
+  height: 1.5vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepOne .mainOne .levels #bar {
+  width: 100%;
+
+  border: none;
+}
+
+#stepOne .mainOne .contentOne {
+  width: 60%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: var(--white);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepOne .mainOne .contentOne form {
+  display: flex;
+  flex-direction: column;
+}
+
+#stepOne .mainOne .contentOne form input {
+  width: 40vw;
+  height: 5vh;
+
+  padding: 10px;
+  border: none;
+
+  background-color: var(--input-color);
+}
+
+#stepOne .mainOne .contentOne form select {
+  width: 40vw;
+  height: 5vh;
+}
+
+#stepOne .mainOne .contentOne label {
+  font-weight: 600;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#stepOne .mainOne .contentOne button {
+  width: 20vw;
+  height: 5vh;
+
+  margin: 30px 0;
+
+  border: none;
+  border-radius: 3px;
+
+  color: #fff;
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#stepOne .mainOne .contentOne button:hover {
+  filter: brightness(90%);
+}
+
+#stepOne .mainOne .contentOne button .btn {
+  color: #fff;
+}
+
+/* Aqui são as configurações de responsividade da página de registros */
+
+@media (max-width: 425px) {
+  #stepOne .mainOne {
+    height: 100%;
+  }
+
+  #stepOne .mainOne h3 {
+    font-size: 15pt;
+
+    margin-top: 60px;
+  }
+
+  #stepOne .mainOne .levels {
+    width: 90%;
+    height: 2vh;
+  }
+
+  #stepOne .mainOne .contentOne {
+    width: 90%;
+    height: 110vh;
+  }
+
+  #stepOne .mainOne .contentOne form input {
+    width: 70vw;
+    height: 6vh;
+  }
+
+  #stepOne .mainOne .contentOne form select {
+    width: 70vw;
+    height: 6vh;
+  }
+
+  #stepOne .mainOne .contentOne button {
+    width: 50vw;
+    height: 6vh;
+  }
+}

@@ -1,0 +1,47 @@
+@media (max-width: 425px) {
+  header {
+    display: none;
+  }
+
+  #midChoice {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+  }
+
+  #midChoice h2 {
+    font-size: 20pt;
+  }
+
+  #midChoice .choiceTop {
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #midChoice .choiceBot {
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #midChoice .field {
+    width: 90vw;
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+  }
+
+  #midChoice .field h3 {
+    font-size: 10pt;
+    font-weight: 600;
+
+    color: #fff;
+  }
+}

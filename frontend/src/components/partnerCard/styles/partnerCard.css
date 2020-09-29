@@ -1,0 +1,81 @@
+#partCard {
+  width: 28vw;
+  height: 40vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--white);
+}
+
+#partCard .tp {
+  width: 90%;
+  height: 55%;
+
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+
+  display: flex;
+}
+
+#partCard .tp img {
+  width: 8vw;
+  height: 10vh;
+}
+
+#partCard .tp .box h3 {
+  color: var(--blue);
+}
+
+#partCard .tp .box p {
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #6e6e6e;
+}
+
+#partCard .bt {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-top: 2px solid #d7d7d7;
+}
+
+#partCard .bt .bx {
+  width: 80%;
+
+  margin: auto;
+}
+
+#partCard .bt p {
+  font-size: 12px;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-top: 10px;
+}
+
+#partCard .bt button {
+  width: 15vh;
+
+  padding: 5px;
+  margin-bottom: 10px;
+
+  border: 2px solid var(--blue);
+
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--blue);
+
+  background-color: var(--white);
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#partCard .bt button:hover {
+  filter: brightness(90%);
+}

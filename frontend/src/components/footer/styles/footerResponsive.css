@@ -1,0 +1,22 @@
+@media (max-width: 425px) {
+  .ft-tp {
+    height: 70vh;
+
+    display: block;
+  }
+
+  .ft-tp img {
+    margin: 40px 0 0 90px;
+  }
+
+  .ft-tp-content {
+    flex-direction: column;
+
+    margin-left: 100px;
+  }
+
+  .ft-btm p {
+    font-size: 9px;
+    color: #565656;
+  }
+}

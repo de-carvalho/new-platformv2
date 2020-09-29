@@ -1,0 +1,21 @@
+@media (max-width: 425px) {
+  #header {
+    display: none;
+  }
+  /* #header {
+    width: 100%;
+    height: 20vh;
+  }
+
+  #header header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header ul a {
+    display: flex;
+    flex-direction: row;
+  } */
+}

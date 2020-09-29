@@ -1,0 +1,139 @@
+#stepThree .mainThree {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#stepThree .mainThree h3 {
+  margin-bottom: 50px;
+
+  color: #333;
+}
+
+#stepThree .mainThree .levels {
+  width: 60%;
+  height: 1.5vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepThree .mainThree .levels #bar {
+  width: 100%;
+
+  border: nThree;
+}
+
+#stepThree .mainThree .contentThree {
+  width: 60%;
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: var(--white);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepThree .mainThree .contentThree form {
+  display: flex;
+  flex-direction: column;
+}
+
+#stepThree .mainThree .contentThree form input {
+  width: 40vw;
+  height: 5vh;
+
+  padding: 10px;
+  border: none;
+
+  background-color: var(--input-color);
+}
+
+#stepThree .mainThree .contentThree form select {
+  width: 40vw;
+  height: 5vh;
+}
+
+#stepThree .mainThree .contentThree label {
+  font-weight: 600;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#stepThree .mainThree .contentThree button {
+  width: 15vw;
+  height: 5vh;
+
+  margin: 30px;
+
+  border: none;
+  border-radius: 3px;
+
+  color: #fff;
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#stepThree .mainThree .contentThree button:hover {
+  filter: brightness(90%);
+}
+
+#stepThree .mainThree .contentThree button .btn {
+  color: #fff;
+}
+
+/* Aqui começam as configurações de responsividade */
+@media (max-width: 425px) {
+  header {
+    display: none;
+  }
+
+  #stepThree .mainThree {
+    width: 100%;
+  }
+
+  #stepThree .mainThree h3 {
+    font-size: 15pt;
+
+    margin-top: 60px;
+  }
+
+  #stepThree .mainThree .contentThree {
+    width: 90%;
+  }
+
+  #stepThree .mainThree .levels {
+    width: 90%;
+    height: 2vh;
+  }
+
+  #stepThree .mainThree .contentThree form input {
+    width: 80vw;
+    height: 6vh;
+  }
+
+  #stepThree .mainThree .contentThree form select {
+    width: 80vw;
+    height: 6vh;
+  }
+
+  #stepThree .mainThree .contentThree button {
+    width: 50vw;
+    height: 6vh;
+  }
+
+  #stepThree .mainThree .contentThree .btnWay {
+    display: flex;
+    flex-direction: column;
+  }
+}

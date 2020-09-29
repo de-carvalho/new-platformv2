@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  #situationDetails .content h3 {
+    font-size: 18px;
+  }
+}

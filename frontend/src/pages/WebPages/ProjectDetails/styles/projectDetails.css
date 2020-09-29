@@ -1,0 +1,50 @@
+#projectDetails #mainContent {
+  width: 95%;
+  height: 100%;
+
+  margin-top: 50px !important;
+  margin: auto;
+  background: var(--white);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#projectDetails #mainContent .topContent {
+  width: 98%;
+  height: 50vh;
+
+  display: flex;
+
+  margin: auto;
+}
+
+#projectDetails #mainContent .topContent .leftContent {
+  width: 45vw;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projectDetails #mainContent .topContent .leftContent h4 {
+  font-size: 18pt;
+  font-weight: 600;
+  color: var(--blue);
+
+  text-transform: uppercase;
+}
+
+#projectDetails #mainContent .topContent .rightContent {
+  width: 50vw;
+  height: 50vh;
+
+  background: darksalmon;
+}
+
+#projectDetails #mainContent .bottomContent {
+  width: 95%;
+  height: 50vh;
+
+  margin: auto;
+}

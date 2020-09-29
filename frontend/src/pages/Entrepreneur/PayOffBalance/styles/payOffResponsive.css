@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  #payOffBalance .content .payOffTable button {
+    width: 40vw;
+  }
+}

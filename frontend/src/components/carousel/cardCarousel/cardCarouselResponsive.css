@@ -1,0 +1,9 @@
+@media (max-width: 400px) {
+  .cardCarouselContainer {
+    width: 50vw;
+  }
+
+  .cardCarouselContainer img {
+    width: 20vw;
+  }
+}

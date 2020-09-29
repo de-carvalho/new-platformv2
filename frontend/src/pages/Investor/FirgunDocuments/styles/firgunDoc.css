@@ -1,0 +1,77 @@
+#firgunDoc {
+  display: flex;
+}
+
+#firgunDoc .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#firgunDoc .content h3 {
+  margin-top: 100px;
+  color: #333;
+}
+
+#firgunDoc .firTable {
+  width: 90%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+#firgunDoc .firTable table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#firgunDoc .firTable thead {
+  font-size: 12px;
+  color: #fff;
+
+  text-align: center;
+
+  background-color: var(--blue);
+}
+
+#firgunDoc .firTable tr {
+  font-size: 12px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+#firgunDoc .firTable tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#firgunDoc .firTable button {
+  width: 6vw;
+  height: 3vh;
+
+  margin-right: 5px;
+
+  font-weight: 600;
+
+  border: none;
+  border-radius: 2px;
+
+  color: #f9f9f9;
+  background-color: #d7d7d7;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  transition: filter 400ms;
+  cursor: pointer;
+}
+
+#firgunDoc .firTable button:hover {
+  filter: brightness(90%);
+}

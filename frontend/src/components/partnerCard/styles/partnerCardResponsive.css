@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+  #partCard {
+    width: 90vw;
+    height: 35vh;
+
+    margin-bottom: 20px;
+  }
+
+  #partCard .tp img {
+    width: 25vw;
+  }
+}

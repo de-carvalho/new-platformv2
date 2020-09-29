@@ -1,0 +1,28 @@
+@media (max-width: 425px) {
+  #personal .content .perData {
+    height: 190vh;
+
+    margin-bottom: 20px;
+  }
+
+  #personal .content h3 {
+    font-size: 11pt;
+    font-weight: 600;
+
+    margin: 20px 0;
+  }
+
+  #personal .content .perData .edit {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #personal .content .perData .edit input {
+    width: 70vw;
+  }
+
+  #personal .content .perData button {
+    width: 50vw;
+  }
+}

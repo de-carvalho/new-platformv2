@@ -1,0 +1,131 @@
+#stepTwo .mainTwo {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#stepTwo .mainTwo h3 {
+  margin: 50px 0;
+
+  color: #333;
+}
+
+#stepTwo .mainTwo .levels {
+  width: 60%;
+  height: 1.5vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepTwo .mainTwo .levels #bar {
+  width: 100%;
+
+  border: none;
+}
+
+#stepTwo .mainTwo .contentTwo {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: var(--white);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stepTwo .mainTwo .contentTwo form {
+  display: flex;
+  flex-direction: column;
+}
+
+#stepTwo .mainTwo .contentTwo form input {
+  width: 40vw;
+  height: 5vh;
+
+  padding: 10px;
+  border: none;
+
+  background-color: var(--input-color);
+}
+
+#stepTwo .mainTwo .contentTwo label {
+  font-weight: 600;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#stepTwo .mainTwo .contentTwo button {
+  width: 15vw;
+  height: 5vh;
+
+  margin: 30px;
+
+  border: none;
+  border-radius: 3px;
+
+  color: #fff;
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#stepTwo .mainTwo .contentTwo button:hover {
+  filter: brightness(90%);
+}
+
+#stepTwo .mainTwo .contentTwo button .btn {
+  color: #fff;
+}
+
+/* Aqui são as configurações de responsividade */
+
+@media (max-width: 425px) {
+  header {
+    display: none;
+  }
+
+  #stepTwo .mainTwo {
+    height: 100%;
+  }
+
+  #stepTwo .mainTwo h3 {
+    font-size: 15pt;
+
+    margin-top: 60px;
+  }
+
+  #stepTwo .mainTwo .levels {
+    width: 90%;
+    height: 2vh;
+  }
+
+  #stepTwo .mainTwo .contentTwo {
+    width: 90%;
+    height: 130vh;
+  }
+
+  #stepTwo .mainTwo .contentTwo form input {
+    width: 70vw;
+    height: 6vh;
+  }
+
+  #stepTwo .mainTwo .contentTwo button {
+    width: 50vw;
+    height: 6vh;
+  }
+
+  #stepTwo .mainTwo .contentTwo .btnWay {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,28 @@
+@media (max-width: 425px) {
+  #documentsContainer .content .perData {
+    height: 190vh;
+
+    margin-bottom: 20px;
+  }
+
+  #documentsContainer .content h3 {
+    font-size: 11pt;
+    font-weight: 600;
+
+    margin: 20px 0;
+  }
+
+  #documentsContainer .content .perData .edit {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #documentsContainer .content .perData .edit input {
+    width: 70vw;
+  }
+
+  #documentsContainer .content .perData button {
+    width: 50vw;
+  }
+}

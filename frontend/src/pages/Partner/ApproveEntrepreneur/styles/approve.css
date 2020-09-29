@@ -1,0 +1,45 @@
+#appEntrepreneur {
+  display: flex;
+}
+
+#appEntrepreneur .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#appEntrepreneur .appTable {
+  width: 90%;
+  height: 50vh;
+
+  margin: auto;
+}
+
+#appEntrepreneur .appTable table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#appEntrepreneur .appTable thead {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#appEntrepreneur .appTable tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#appEntrepreneur .appTable .iconsX {
+  font-size: 25px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+#appEntrepreneur .appTable .iconsV {
+  font-size: 25px;
+  color: #00ff00;
+  cursor: pointer;
+}

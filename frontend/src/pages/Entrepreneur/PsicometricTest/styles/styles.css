@@ -1,0 +1,93 @@
+#psicometricTest {
+  display: flex;
+}
+
+#psicometricTest .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#psicometricTest .content h3 {
+  margin: 5px 20px 20px 20px;
+
+  color: #3a3a3a;
+}
+
+#psicometricTest .content .levels {
+  margin-top: 30px;
+  width: 95%;
+  height: 2vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#psicometricTest .content .levels #bar {
+  width: 100%;
+
+  border: none;
+}
+
+.quizContainer {
+  width: 95%;
+  padding: 20px;
+  height: 82vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  /* margin-top: 30px */
+
+  border-radius: 3px;
+  /* border: 1px solid #e02041; */
+
+  background-color: var(--white);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  overflow-y: auto;
+}
+
+.quizContainer .quizBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.quizContainer button {
+  border: none;
+  background-color: var(--blue);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+
+  padding: 10px;
+  margin-top: 30px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.quizContainer button:hover {
+  filter: brightness(90%);
+}
+
+.quizContainer .quizBox .quizQuestion .quizAnswers label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-weight: 500;
+}
+
+.quizContainer .quizBox .quizQuestion .quizAnswers label input {
+  margin-top: 5px;
+}
+
+.btnDisabled {
+  background: #ccc !important;
+  cursor: not-allowed !important;
+}

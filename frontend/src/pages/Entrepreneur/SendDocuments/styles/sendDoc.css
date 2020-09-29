@@ -1,0 +1,91 @@
+#sendDoc {
+  display: flex;
+}
+
+#sendDoc .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sendDoc .content h3 {
+  margin-top: 50px;
+  color: #333;
+}
+
+#sendDoc .tableDoc {
+  width: 90%;
+  height: 65vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+
+#sendDoc .tableDoc table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#sendDoc .tableDoc thead {
+  font-size: 12px;
+  color: #fff;
+
+  text-align: center;
+
+  background-color: var(--blue);
+}
+
+#sendDoc .tableDoc tr {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+#sendDoc .tableDoc tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#sendDoc .tableDoc button {
+  width: 6vw;
+  height: 3vh;
+
+  margin-right: 15px;
+
+  font-weight: 600;
+
+  border: none;
+  border-radius: 2px;
+
+  color: #f9f9f9;
+  background-color: #d7d7d7;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  transition: filter 400ms;
+  cursor: pointer;
+}
+
+#sendDoc .tableDoc button:hover {
+  filter: brightness(90%);
+}
+
+.btnDisabled {
+  background: #ccc !important;
+  cursor: not-allowed !important;
+}
+
+.modalDelete {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

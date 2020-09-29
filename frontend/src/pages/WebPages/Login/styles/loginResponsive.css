@@ -1,0 +1,19 @@
+@media (max-width: 425px) {
+  #loginContainer img {
+    padding: 30px 105px 20px 105px;
+  }
+
+  .loginContent {
+    width: 350px;
+    height: 500px;
+  }
+
+  .loginContent input {
+    width: 300px;
+    padding: 7px;
+  }
+
+  .loginContent p {
+    font-size: 12px;
+  }
+}

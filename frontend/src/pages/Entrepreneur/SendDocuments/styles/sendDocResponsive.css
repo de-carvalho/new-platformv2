@@ -1,0 +1,12 @@
+@media (max-width: 425px) {
+  #sendDoc .tableDoc {
+    width: 95%;
+  }
+
+  #sendDoc .tableDoc button {
+    width: 30vw;
+    height: 4vh;
+
+    margin: 10px;
+  }
+}

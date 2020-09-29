@@ -1,0 +1,35 @@
+@media (max-width: 425px) {
+  #investorProfile .content .questions {
+    width: 90%;
+    height: 200vh;
+
+    margin-bottom: 20px;
+  }
+
+  #investorProfile .content h3 {
+    font-size: 15pt;
+  }
+
+  #investorProfile .content .questions .quest {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #investorProfile .content .questions .quest label {
+    font-size: 10pt;
+  }
+
+  #investorProfile .content .questions .quest input {
+    width: 80vw;
+    height: 6vh;
+  }
+
+  #investorProfile .content .questions button {
+    width: 50vw;
+
+    margin-bottom: 20px;
+  }
+}

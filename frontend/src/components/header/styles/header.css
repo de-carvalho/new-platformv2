@@ -1,0 +1,31 @@
+#head header {
+  width: 100%;
+  height: 8vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+
+  background-color: var(--blue);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+#head header ul {
+  display: flex;
+}
+
+#head .link {
+  padding: 30px;
+  margin-top: 20px;
+
+  list-style: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 425px) {
+  #partnerWallet .txt {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #partnerWallet .search {
+    width: 90vw;
+
+    display: flex;
+  }
+
+  #partnerWallet .search input {
+    width: 80%;
+  }
+
+  #partnerWallet .wallTable button {
+    width: 30vw;
+  }
+
+}

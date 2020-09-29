@@ -1,0 +1,9 @@
+@media (max-width: 400px) {
+  #teamMain {
+    width: 100%;
+  }
+  #teamMain .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 425px) {
+  .recoverPassContent  {
+    width: 350px;
+  }
+
+  .recoverPassContent h3 {
+    font-size: 16px;
+  }
+
+  .recoverPassContent input {
+    width: 280px;
+  }
+
+  .recoverPassContent p {
+    font-size: 12px;
+  }
+}

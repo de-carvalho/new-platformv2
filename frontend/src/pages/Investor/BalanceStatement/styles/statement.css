@@ -1,0 +1,54 @@
+#statement {
+  display: flex;
+}
+
+#statement .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#statement .content h3 {
+  margin-top: 50px;
+  color: #333;
+}
+
+#statement .stateTable {
+  width: 90%;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+#statement .stateTable table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#statement .stateTable thead {
+  font-size: 12px;
+  color: #fff;
+
+  text-align: center;
+
+  background-color: var(--blue);
+}
+
+#statement .stateTable tr {
+  font-size: 12px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+#statement .stateTable tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}

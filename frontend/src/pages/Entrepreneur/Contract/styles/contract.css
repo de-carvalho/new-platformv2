@@ -1,0 +1,139 @@
+#contract {
+  display: flex;
+}
+
+#contract .content {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contract .content h3 {
+  margin: 20px;
+  font-size: 20px;
+
+  color: #333;
+}
+
+#contract .content .conData {
+  width: 85%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 20px;
+
+  background-color: var(--white);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+#contract .content .field {
+  width: 60vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#contract .content .field label {
+  font-size: 12pt;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+#contract .content .field span,
+select {
+  width: 29vw;
+  height: 5vh;
+  font-weight: normal;
+  padding: 10px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #e9e9e9;
+}
+
+#contract .content .field textarea {
+  width: 60vw;
+  height: 10vh;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #e9e9e9;
+}
+
+#contract .content .conData button {
+  width: 20vw;
+  height: 5vh;
+
+  margin: 30px;
+
+  font-weight: 600;
+  color: #fff;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#contract .content .btnText {
+  color: #fff;
+}
+
+#contract .content .field .spanItem {
+  border: 1px solid #e02041;
+}
+
+.modalEmptyData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalEmptyData button {
+  transition: all 0.3s;
+}
+
+.modalEmptyData button:hover {
+  filter: brightness(90%);
+}
+
+.modalEmptyData .modalButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalEmptyData .modalButtons button {
+  border: none;
+  color: #333;
+  width: 150px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.modalEmptyData .modalButtons .modalButtonConfirm {
+  color: #fff;
+  background: #84cc20;
+}
+.modalEmptyData .modalButtons .modalButtonClose {
+  color: #fff;
+  background: #e02041;
+}
+
+.conData .btn .btnDisabled {
+  background: #ccc !important;
+  cursor: not-allowed !important;
+}

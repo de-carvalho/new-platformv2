@@ -1,0 +1,41 @@
+@media (max-width: 425px) {
+  #investorTransfer .content h3 {
+    margin-top: 50px;
+
+    font-size: 20px;
+  }
+
+  #investorTransfer .content .transfer {
+    width: 90%;
+    height: 110vh;
+
+    margin-bottom: 40px;
+  }
+
+  #investorTransfer .transfer .top {
+    width: 90%;
+    height: 20vh;
+  }
+
+  #investorTransfer .transfer .bot {
+    width: 95%;
+    height: 30vh;
+  }
+
+  #investorTransfer .transfer .x {
+    margin-left: 33px;
+  }
+
+  #investorTransfer .transferConfirm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #investorTransfer .transferConfirm span {
+    margin-bottom: 20px;
+  }
+
+  #investorTransfer .transfer button {
+    width: 50%;
+  }
+}

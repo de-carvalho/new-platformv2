@@ -1,0 +1,104 @@
+#loan {
+  display: flex;
+}
+
+#loan .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loan .content h3 {
+  margin-top: 100px;
+  font-size: 25px;
+  color: #333;
+}
+
+#loan .content .info {
+  display: flex;
+}
+
+#loan .content .info span {
+  display: flex;
+  align-items: center;
+
+  margin: 20px 40px 0 0;
+  padding: 5px;
+
+  font-weight: 600;
+
+  background-color: var(--white);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#loan .content .info p {
+  margin: 4pt;
+
+  color: var(--blue);
+}
+
+#loan .loanTable {
+  width: 90%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+#loan .loanTable table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#loan .loanTable thead {
+  font-size: 12pt;
+  color: #fff;
+
+  text-align: left;
+
+  background-color: var(--blue);
+}
+
+#loan .loanTable tr {
+  font-size: 10pt;
+  font-weight: 600;
+
+  text-align: lef;
+}
+
+#loan .loanTable tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#loan .loanTable button {
+  width: 15vw;
+  height: 5vh;
+
+  border: none;
+  border-radius: 3px;
+
+  font-weight: 600;
+  color: #fff;
+
+  background-color: var(--blue);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#loan .loanTable button:hover {
+  filter: brightness(90%);
+}
+
+.btnDisabled {
+  background: #ccc !important;
+  cursor: not-allowed !important;
+}

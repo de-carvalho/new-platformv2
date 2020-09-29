@@ -1,0 +1,24 @@
+@media (max-width: 425px) {
+  .dataContainer {
+    width: 90%;
+    height: 1000vh;
+
+    margin-top: 25px;
+    margin-bottom: 80px;
+  }
+
+  #partnerData .content .dataContainer .field {
+    width: 70vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #partnerData .content .dataContainer .field input {
+    width: 70vw;
+  }
+
+  #partnerData .content .dataContainer button {
+    width: 50vw;
+  }
+}

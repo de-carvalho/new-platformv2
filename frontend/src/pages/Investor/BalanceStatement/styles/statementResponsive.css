@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  #statement .content h3 {
+    font-size: 20px;
+  }
+}

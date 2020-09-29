@@ -1,0 +1,43 @@
+@media (max-width: 400px) {
+  #projectInvest #mainProject .contentProject {
+    width: 95%;
+    height: 100%;
+  }
+
+  #projectInvest #mainProject .contentProject .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projectInvest #mainProject .contentProject .info img {
+    margin: auto;
+    width: 25vw;
+  }
+
+  #projectInvest #mainProject .contentProject .info p {
+    width: 100%;
+  }
+
+  #projectInvest #mainProject .contentProject .pay {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projectInvest #mainProject .contentProject .pay span {
+    font-size: 12px;
+  }
+
+  #projectInvest #mainProject .contentProject .inpt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projectInvest #mainProject .contentProject .pay input {
+    width: 100%;
+  }
+
+  #projectInvest #mainProject .contentProject .opts {
+    width: 80%;
+    margin-top: 10px;
+  }
+}

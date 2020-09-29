@@ -1,0 +1,46 @@
+@media (max-width: 425px) {
+  #withdraw .content .drawBalance {
+    width: 90%;
+    height: 80vh;
+
+    margin-bottom: 50px;
+  }
+
+  #withdraw .content .drawBalance .top select {
+    width: 70%;
+  }
+
+  #withdraw .content .drawBalance .bot {
+    width: 80%;
+    height: 20vh;
+
+    flex-wrap: wrap;
+  }
+
+  #withdraw .content .drawBalance .bot input {
+    width: 100%;
+  }
+
+  #withdraw .drawBalance .transConfirm {
+    width: 80%;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #withdraw .transConfirm span {
+    font-size: 15px;
+    width: 60%;
+
+    margin: auto;
+  }
+
+  #withdraw .transConfirm input {
+    width: 100%;
+  }
+
+  #withdraw .drawBalance button {
+    width: 35vw;
+  }
+}

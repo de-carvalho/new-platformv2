@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+  #firgunDoc .content h3 {
+    font-size: 20px;
+  }
+
+  #firgunDoc .firTable button {
+    width: 100%;
+  }
+}

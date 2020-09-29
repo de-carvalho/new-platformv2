@@ -1,0 +1,29 @@
+#teamMain {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#teamMain h2 {
+  margin-top: 50px;
+
+  text-transform: uppercase;
+
+  color: var(--blue);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mirror {
+  margin-top: 50px;
+}
+
+#teamMain .teamCards {
+  margin-bottom: 50px;
+}

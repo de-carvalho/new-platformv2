@@ -1,0 +1,123 @@
+#header {
+  width: 100%;
+  height: 55px;
+
+  background-color: var(--light-white);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+#header header {
+  width: 90%;
+
+  margin: auto;
+  margin-top: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header header nav ul a {
+  margin-left: 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+#header ul a:hover {
+  color: var(--blue);
+}
+
+.perfil {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.perfilItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* width: 220px; */
+}
+
+.perfilItem:hover {
+  color: var(--blue);
+}
+
+.perfilItem img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.perfilItem span {
+  margin-right: 5px;
+}
+
+.dropdownPerfil {
+  opacity: 1;
+  position: absolute;
+  z-index: 90;
+  margin-top: 50px;
+  background-color: var(--light-white);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdownPerfilOff {
+  opacity: 0;
+  position: absolute;
+  z-index: 90;
+  margin-top: 50px;
+  background-color: var(--light-white);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdownPerfilOff ul {
+  list-style: none;
+}
+.dropdownPerfilOff ul li a {
+  opacity: 0;
+}
+.dropdownPerfil ul {
+  list-style: none;
+}
+
+.dropdownPerfil ul li a,
+.dropdownPerfil ul li {
+  margin: 3px 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.dropdownPerfil ul li a:hover {
+  color: var(--blue);
+}
+
+.perfilIcon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.dropdownPerfil ul li.logout:hover {
+  color: #ff2b34 !important;
+}

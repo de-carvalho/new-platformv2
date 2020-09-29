@@ -1,0 +1,35 @@
+.projectBanner {
+  width: 100%;
+  height: 30vh;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.projectMain {
+  width: 100%;
+}
+
+.projectMain .text {
+  width: 20vw;
+
+  padding: 6px;
+  margin: 50px;
+
+  text-align: center;
+
+  background-color: var(--blue);
+}
+
+.projectMain .text h3 {
+  font-size: 22px;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+.projectMain .cont {
+  width: 85%;
+  height: 40vh;
+
+  margin: auto;
+}

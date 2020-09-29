@@ -1,0 +1,83 @@
+#investorTwo .mainInvestTwo {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#investorTwo .mainInvestTwo h3 {
+  margin-bottom: 50px;
+
+  color: #333;
+}
+
+#investorTwo .mainInvestTwo .levels {
+  width: 60%;
+  height: 1.5vh;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#investorTwo .mainInvestTwo .levels #bar {
+  width: 100%;
+
+  border: nTwo;
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo {
+  width: 60%;
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: var(--white);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo form {
+  display: flex;
+  flex-direction: column;
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo form input {
+  width: 40vw;
+  height: 3.5vh;
+
+  padding: 10px;
+  border: none;
+
+  background-color: var(--input-color);
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo label {
+  font-weight: 600;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo button {
+  width: 15vw;
+  height: 4vh;
+
+  margin: 30px;
+
+  border: none;
+  border-radius: 3px;
+
+  background-color: var(--blue);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: filter 400ms;
+}
+
+#investorTwo .mainInvestTwo .contentInvestTwo button:hover {
+  filter: brightness(90%);
+}

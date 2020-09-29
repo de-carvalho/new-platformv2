@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+  #investorSituation .sitTable button {
+    width: 30vw;
+  }
+
+  #investorSituation .content h3 {
+    text-align: center;
+  }
+}

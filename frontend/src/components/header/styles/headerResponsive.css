@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  #head header {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  #head header {
+    width: 100%;
+    height: 50vh;
+
+    border-radius: 0;
+    flex-direction: column;
+  }
+
+  #head header ul {
+    flex-direction: column;
+  }
+
+  #head header ul li{
+    padding: 10px;
+    margin: 5px;
+  }
+}

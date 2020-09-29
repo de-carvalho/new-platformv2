@@ -1,0 +1,14 @@
+@media (max-width: 425px) {
+  #allProjects .mainContent h3 {
+    font-size: 16px;
+  }
+
+  #allProjects .mainContent .search {
+    width: 90%;
+    display: flex;
+  }
+
+  #allProjects .mainContent .search input {
+    width: 80%;
+  }
+}

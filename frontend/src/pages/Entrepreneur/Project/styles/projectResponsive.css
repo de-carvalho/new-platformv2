@@ -1,0 +1,27 @@
+@media (max-width: 425px) {
+  .prjct {
+    width: 90%;
+    height: 200vh;
+
+    margin-bottom: 50px;
+  }
+
+  .prjct .field {
+    width: 70vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prjct .field input {
+    width: 70vw;
+  }
+
+  .prjct .field textarea {
+    width: 70vw;
+  }
+
+  #projectEntr .content button {
+    width: 65vw;
+  }
+}

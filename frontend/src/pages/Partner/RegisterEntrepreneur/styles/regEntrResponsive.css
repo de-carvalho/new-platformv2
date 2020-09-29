@@ -1,0 +1,17 @@
+@media (max-width: 425px) {
+  .regContent {
+    width: 90%;
+  }
+
+  .regContent label {
+    font-size: 12px;
+  }
+
+  .regContent input {
+    width: 60vw;
+  }
+
+  .regContent button {
+    width: 30vw;
+  }
+}

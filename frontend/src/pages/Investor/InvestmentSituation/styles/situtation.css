@@ -1,0 +1,81 @@
+#investorSituation {
+  display: flex;
+}
+
+#investorSituation .content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#investorSituation .content h3 {
+  margin-top: 100px;
+  color: #333;
+}
+
+#investorSituation .sitTable {
+  width: 90%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+#investorSituation .sitTable table {
+  width: 100%;
+  background-color: #fff;
+}
+
+#investorSituation .sitTable thead {
+  font-size: 12px;
+  color: #fff;
+
+  text-align: center;
+
+  background-color: var(--blue);
+}
+
+#investorSituation .sitTable tr {
+  font-size: 12px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+#investorSituation .sitTable tr a {
+  text-decoration: none;
+  color: #333;
+}
+#investorSituation .sitTable tr a:hover {
+  color: #fff;
+}
+
+#investorSituation .sitTable tr:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+#investorSituation .sitTable button {
+  width: 12vw;
+  height: 4vh;
+
+  border: none;
+  border-radius: 2px;
+
+  color: #fff;
+  background-color: var(--blue);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  transition: filter 400ms;
+  cursor: pointer;
+}
+
+#investorSituation .sitTable button:hover {
+  filter: brightness(90%);
+}

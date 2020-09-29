@@ -1,0 +1,22 @@
+@media (max-width: 425px) {
+  .support {
+    width: 90%;
+    height: 100vh;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    background-color: var(--dark-white);
+    box-shadow: none;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #partnerHome .table table {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+  .wallInfo {
+    display: flex;
+    flex-direction: column;
+  }
+}

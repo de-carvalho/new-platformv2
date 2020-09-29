@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+  #value .drawTable button {
+    width: 30vw;
+    height: 6vh;
+  }
+}

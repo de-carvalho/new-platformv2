@@ -1,0 +1,11 @@
+@media (max-width: 400px) {
+  #cards {
+    width: 80vw;
+
+    margin-bottom: 10px;
+  }
+
+  #cards img {
+    width: 25vw;
+  }
+}

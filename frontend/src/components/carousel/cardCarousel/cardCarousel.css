@@ -1,0 +1,136 @@
+.cardCarouselContainer {
+  width: 18vw;
+  height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cardCarouselContainer img {
+  width: 7vw;
+
+  border-radius: 50%;
+}
+
+.cardCarouselContainer h5 {
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #50b8ff;
+}
+
+.cardCarouselContainer .tP {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 600;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  text-align: center;
+
+  color: #b6b6c6;
+}
+
+#barCard {
+  width: 90%;
+  height: 1vh;
+
+  margin-top: 10px;
+}
+
+.cardCarouselContainer .cardBorder {
+  width: 90%;
+  height: 4vh;
+
+  display: flex;
+
+  margin-top: 20px;
+
+  border-radius: 3px;
+  border: 1px solid #d7d7d7;
+}
+
+.cardCarouselContainer .cardBorder .cardTime {
+  width: 33%;
+  height: 3.8vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-right: 1px solid #d7d7d7;
+}
+
+.cardCarouselContainer .cardBorder .cardTime .icon {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.cardCarouselContainer .cardBorder .cardTime p {
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #b6b6c6;
+
+  margin-top: 15px;
+
+  text-align: center;
+}
+
+.cardCarouselContainer .cardBorder .cardMoney {
+  width: 34%;
+  height: 3.8vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-right: 1px solid #d7d7d7;
+}
+
+.cardCarouselContainer .cardBorder .cardMoney p {
+  font-size: 12px;
+  font-weight: 600;
+
+  margin-top: 15px;
+
+  text-align: center;
+
+  color: #b6b6c6;
+}
+
+.cardCarouselContainer .cardBorder .cardInvestors {
+  width: 32%;
+  height: 3.8vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardCarouselContainer .cardBorder .cardInvestors .icon {
+  font-size: 18px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.cardCarouselContainer .cardBorder .cardInvestors p {
+  font-size: 12px;
+  font-weight: 600;
+
+  margin-top: 15px;
+
+  color: #b6b6c6;
+
+  text-align: center;
+}
